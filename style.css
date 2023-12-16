@@ -1,11 +1,93 @@
-div {
-  background-color: #209393;
-  width: 500px;
-  padding: 10px;
-  margin: 20px;
-  /* text-align: center; */
+#container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-P{
-  border: 5px solid black; 
+.item1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c40e0e;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.item2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: royalblue;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.item3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blanchedalmond;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.item4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:aquamarine;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.item5{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(97, 231, 157);
+  padding: 10px;
+  margin: 10px;
+   border-radius: 10px;
+}
+
+.item6{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.item7{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: indigo;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.item8{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(5, 58, 105);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
 }
